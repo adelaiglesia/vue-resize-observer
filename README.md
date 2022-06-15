@@ -4,7 +4,9 @@
   </a>
 </p>
 
-<h2 align="center">Vue Resize Observer</h2>
+<h2 align="center">Vue Resize Observer for Vuetify</h2>
+
+
 
 <p align="center">
   <a href="https://npmjs.com/package/vue-resize-observer" rel="nofollow">
@@ -43,7 +45,8 @@
   </a>
 </p>
 
-English | [简体中文](https://github.com/wangweiwei/vue-resize-observer/blob/master/README.zh.md)
+> :warning: **IMPORTANT NOTICE: **: This is a fork of vue-resize-observer from Wayne changed to not be in conflict to the v-resize vuetify directive. 
+
 
 ![demo gif](https://github.com/wangweiwei/vue-resize-observer/raw/master/example/demo.gif)
 
@@ -100,10 +103,10 @@ new Vue({
 ```
 
 
-* Then `v-resize` directive to detect DOM resize events.
+* Then `v-resizenotify` directive to detect DOM resize events.
 ``` vue
 <template>
-  <div class="resize" v-resize="onResize">
+  <div class="resize" v-resizenotify="onResize">
     width: {{width}}, height: {{height}}
   </div>
 </template>
@@ -160,7 +163,7 @@ Or read the documentation online
 
 ## ⚠️  Notice
 
-Set the `v-resize` directive for a DOM element and make the element position to something other than 'static' (for example 'relative').
+Set the `v-resizenotify` directive for a DOM element and make the element position to something other than 'static' (for example 'relative').
 
 ## Dependency 
 
