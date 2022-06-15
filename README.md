@@ -165,11 +165,6 @@ Or read the documentation online
 
 Set the `v-resizenotify` directive for a DOM element and make the element position to something other than 'static' (for example 'relative').
 
-## Dependency 
-
-[![Dependency Status](https://david-dm.org/wangweiwei/vue-resize-observer.svg)](https://david-dm.org/wangweiwei/vue-resize-observer)
-[![devDependency Status](https://david-dm.org/wangweiwei/vue-resize-observer/dev-status.svg)](https://david-dm.org/wangweiwei/vue-resize-observer?type=dev)
-
 ## License
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://github.com/wangweiwei/vue-resize-observer/blob/master/LICENSE)
 
