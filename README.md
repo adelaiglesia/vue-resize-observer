@@ -52,13 +52,8 @@
 
 ## Installation
 
-- Vue3.0
 ``` sh
-npm install --save vue-resize-observer@next
-```
-- Vue2.0
-``` sh
-npm install --save vue-resize-observer
+npm i https://github.com/adelaiglesia/vue-resize-observer
 ```
 
 ## Module import & Example
