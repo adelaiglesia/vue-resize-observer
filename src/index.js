@@ -15,7 +15,7 @@ const vueResizeObserver = resizeObserverDirective
  * @function install
  */
 resizeObserverDirective.install = function (app) {
-  app.directive("resize", resizeObserverDirective);
+  app.directive("resizenotify", resizeObserverDirective);
 }
 
 export default vueResizeObserver;
